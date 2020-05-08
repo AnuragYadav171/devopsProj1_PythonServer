@@ -6,5 +6,6 @@ Docker Build
 1) docker build -t python_server:latest .
 
 Docker Run
+
 2) docker run -it -v C:\xampp\htdocs\uploads:/app/uploads -v C:\xampp\htdocs\uploadsMoved:/app/uploadsMoved python_server
 
